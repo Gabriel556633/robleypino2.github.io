@@ -518,8 +518,8 @@ section {
 .hero {
   width: 100%;
   height: 100vh;
-  background: url(../img/hero-bg-crema2.jpg) top center no-repeat;
-  background-size: cover;
+ /* background: url(../img/hero-bg-crema2.jpg) top center no-repeat;
+  background-size: cover;*/
 }
 
 .hero h1 {
@@ -890,8 +890,9 @@ section {
 --------------------------------------------------------------*/
 .services {
 
-  background: url(../img/servicios-bg-verde.jpg) top center no-repeat;
-  background-size: cover;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 
@@ -939,8 +940,8 @@ section {
 }
 
 .services .service-box.blue { 
-  border-bottom: 3px solid #319e22;
-  transform: rotate(-12deg) translate(0px,-80px);  
+  /*border-bottom: 3px solid #319e22;*/
+  transform: rotate(-0deg) translate(0px,-0px);  
 }
 
 .services .service-box.blue .icon {
@@ -957,8 +958,8 @@ section {
 }
 
 .services .service-box.orange {
-  border-bottom: 3px solid #d1b398;
-  transform: rotate(-12deg) translate(0px,-80px); 
+ /* border-bottom: 3px solid #d1b398;*/
+  transform: rotate(0deg) translate(0px,-0px); 
 }
 
 .services .service-box.orange .icon {
@@ -975,8 +976,8 @@ section {
 }
 
 .services .service-box.green {
-  border-bottom: 3px solid #ffffff;
-  transform: rotate(-12deg) translate(50px,-80px); 
+  /*border-bottom: 3px solid #ffffff;*/
+  transform: rotate(0deg) translate(0px,0px); 
 }
 
 .services .service-box.green .icon {
@@ -993,8 +994,8 @@ section {
 }
 
 .services .service-box.red {
-  border-bottom: 3px solid #000000;
-  transform: rotate(-12deg) translate(40px,-10px); 
+  /*border-bottom: 3px solid #000000;*/
+  transform: rotate(-0deg) translate(0px,-0px); 
 }
 
 .services .service-box.red .icon {
@@ -1010,40 +1011,6 @@ section {
   background: #319e22;
 }
 
-.services .service-box.purple {
-  border-bottom: 3px solid #b50edf;
-}
-
-.services .service-box.purple .icon {
-  color: #b50edf;
-  background: #f8e4fd;
-}
-
-.services .service-box.purple .read-more {
-  color: #b50edf;
-}
-
-.services .service-box.purple:hover {
-  background: #b50edf;
-}
-
-.services .service-box.pink {
-  border-bottom: 3px solid #f51f9c;
-}
-
-.services .service-box.pink .icon {
-  color: #f51f9c;
-  background: #feecf7;
-}
-
-.services .service-box.pink .read-more {
-  color: #f51f9c;
-}
-
-.services .service-box.pink:hover {
-  background: #f51f9c;
-}
-
 .services .service-box:hover h3,
 .services .service-box:hover p,
 .services .service-box:hover .read-more {
@@ -1053,6 +1020,59 @@ section {
 .services .service-box:hover .icon {
   background: #fff;
 }
+
+
+/*-------------------------------------------------------------------------------------------------------------------*/
+
+.content {
+  width: 100%;
+  height: 100%;
+  
+}
+
+
+.left {
+
+  float: left;
+  position: relative;
+  width: 50%;
+  /*border: steelblue solid 1px;*/
+  height: 75%;
+  background: #013ca3;
+}
+
+.right {
+
+  position: relative;
+  float: left;
+  width: 50%;
+  /*border: steelblue solid 1px;*/
+  height: 40%;
+  background: #b4d329;
+}
+
+.left1 {
+
+  float: left;
+  position: relative;
+  width: 50%;
+  /*border: steelblue solid 1px;*/
+  height: 100%;
+  background: #9f12ac;
+  
+}
+
+.right1 {
+
+  position: absolute;
+  float: left;
+  width: 50%;
+  /*border: steelblue solid 1px;*/
+  height: 25%;
+  background: #3b3b37;
+  transform: translateY(300%);
+}
+
 
 /*--------------------------------------------------------------
 # Pricing
