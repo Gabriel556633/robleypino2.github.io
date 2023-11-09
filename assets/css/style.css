@@ -34,7 +34,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Nunito", sans-serif;
+  font-family: "'Open Sans'", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -613,7 +613,12 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.about {
+  background: rgba(160, 208, 160);
+}
+
 .about .content {
+  font-family: 'Open Sans';
   background-color: #fff7ee;
   padding: 40px;
 }
@@ -642,12 +647,12 @@ section {
   border-radius: 4px;
   transition: 0.5s;
   color: #fff;
-  background: #319e22;
+  background: rgba(160, 208, 160);
   box-shadow: 0px 5px 25px rgba(65, 241, 80, 0.3);
 }
 
 .about .btn-read-more span {
-  font-family: "Nunito", sans-serif;
+  font-family: 'Open Sans';
   font-weight: 600;
   font-size: 16px;
   letter-spacing: 1px;
@@ -904,6 +909,7 @@ section {
   text-align: center;
   transition: 0.3s;
   border-radius: 0px;
+  
 }
 
 .services .service-box .icon {
@@ -941,7 +947,8 @@ section {
 
 .services .service-box.blue { 
   /*border-bottom: 3px solid #319e22;*/
-  transform: rotate(-0deg) translate(0px,-0px);  
+  transform: rotate(-0deg) translate(0px,-0px); 
+   
 }
 
 .services .service-box.blue .icon {
@@ -950,12 +957,19 @@ section {
 }
 
 .services .service-box.blue .read-more {
-  color: #319e22;
+
+  color: #fff;
 }
 
+
+
 .services .service-box.blue:hover {
-  background: #d1b398;
+  background: url(../img/HOJAS11.png) top center no-repeat;
+  background-size: cover;
+  visibility: visible;
 }
+
+
 
 .services .service-box.orange {
  /* border-bottom: 3px solid #d1b398;*/
@@ -973,6 +987,9 @@ section {
 
 .services .service-box.orange:hover {
   background: #747270;
+  background: url(../img/SERVICIOS11.png) top center no-repeat;
+  background-size: cover;
+  visibility: visible;
 }
 
 .services .service-box.green {
@@ -990,7 +1007,10 @@ section {
 }
 
 .services .service-box.green:hover {
-  background: #bebebe;
+  background: #747270;
+  background: url(../img/ESPACIOS11.png) top center no-repeat;
+  background-size: cover;
+  visibility: visible;
 }
 
 .services .service-box.red {
@@ -1008,7 +1028,10 @@ section {
 }
 
 .services .service-box.red:hover {
-  background: #319e22;
+  background: #747270;
+  background: url(../img/EXPERIENCIA11.png) top center no-repeat;
+  background-size: cover;
+  visibility: visible;
 }
 
 .services .service-box:hover h3,
@@ -1038,7 +1061,7 @@ section {
   width: 50%;
   /*border: steelblue solid 1px;*/
   height: 75%;
-  background: #013ca3;
+  background: rgba(160, 208, 160);
 }
 
 .right {
@@ -1048,7 +1071,7 @@ section {
   width: 50%;
   /*border: steelblue solid 1px;*/
   height: 40%;
-  background: #b4d329;
+  background: rgb(77, 77, 75);
 }
 
 .left1 {
@@ -1058,7 +1081,7 @@ section {
   width: 50%;
   /*border: steelblue solid 1px;*/
   height: 100%;
-  background: #9f12ac;
+  background: rgba(247, 233, 224);
   
 }
 
@@ -1069,7 +1092,7 @@ section {
   width: 50%;
   /*border: steelblue solid 1px;*/
   height: 25%;
-  background: #3b3b37;
+  background: rgba(146, 146, 142);
   transform: translateY(300%);
 }
 
@@ -1207,6 +1230,10 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+.portfolio {
+  background: rgba(160, 208, 160);
+}
+
 .portfolio #portfolio-flters {
   padding: 0;
   margin: 0 auto 25px auto;
