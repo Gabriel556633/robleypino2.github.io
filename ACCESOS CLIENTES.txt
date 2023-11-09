@@ -1,0 +1,28 @@
+Estimados:
+
+ROBLE Y PINO
+
+A continuacion los datos de acceso a las diferentes plataformas creadas:
+
+* WORDPRESS (CONSTRUCTOR DE LA PÁGINA WEB)
+Ingresar a: www.robleypino.com/wp-admin
+Usuario: robleypino
+Contraseña: Robl3yPino123!#
+
+* MAILS
+Ingresar a: www.robleypino.com/webmail
+Usuario: info@robleypino.com (o cualquiera de los mails creados: info@ , hojas@ y ventas@)
+Contraseña: Robl3yPino123!# (en el Cpanel se pueden cambiar las contraseñas de cada uno)
+
+* CPANEL
+www.robleypino.com/cpanel
+Usuario: robleypino
+Contraseña: Robl3yPino123!#
+
+
+NOTAS:
+- Copiar tal cual las contraseñas y SIN EL ESPACIO despues de los dos puntos.
+- Favor administrar estos datos de forma segura.
+
+
+
