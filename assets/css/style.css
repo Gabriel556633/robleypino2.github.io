@@ -903,7 +903,7 @@ section {
   height: 100%;
   padding: 30px 30px;
   text-align: center;
-  transition: 0.8s;
+  transition: 0.5s;
   border-radius: 0px;
   
 }
@@ -916,15 +916,14 @@ section {
   margin-bottom: 25px;
   display: inline-block;
   line-height: 0;
-  transition: 0.8s;
+  transition: 0.3s;
   transform: skewy(50%);
   transform-origin: 50% 0;
 }
 
 .services .service-box h3 {
-  color: rgba(160, 208, 160);
   font-weight: 50;
-  transition: 0.8s;
+  transition: 0.3s;
 }
 
 
@@ -961,7 +960,8 @@ section {
 
 
 .services .service-box.blue:hover {
-  
+  background: #747270;
+  background: url(../img/HOJAS11.png) top center no-repeat;
   background-size: cover;
   visibility: visible;
   
@@ -984,8 +984,7 @@ section {
 }
 
 .services .service-box.orange:hover {
-  background: #747270;
-  background: url(../img/SERVICIOS11.png) top center no-repeat;
+
   background-size: cover;
   visibility: visible;
 }
@@ -1083,6 +1082,17 @@ section {
   /*border: steelblue solid 1px;*/
   height: 40%;
   background: rgb(77, 77, 75);
+}
+.right a{
+  
+  color: rgb(77, 77, 75);
+  text-decoration: none;
+}
+
+
+.right a:hover {
+  color: #fff;
+  text-decoration: none;
 }
 
 .left1 {
