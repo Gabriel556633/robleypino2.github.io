@@ -924,6 +924,7 @@ section {
 .services .service-box h3 {
   color: rgba(160, 208, 160);
   font-weight: 50;
+  transition: 0.8s;
 }
 
 
@@ -963,6 +964,7 @@ section {
   
   background-size: cover;
   visibility: visible;
+  
 }
 
 
@@ -1058,6 +1060,7 @@ section {
   /*border: steelblue solid 1px;*/
   height: 75%;
   background: rgba(160, 208, 160);
+  
 }
 .left a{
   
