@@ -916,14 +916,14 @@ section {
   margin-bottom: 25px;
   display: inline-block;
   line-height: 0;
-  transition: 0.3s;
+  transition: 0.8s;
   transform: skewy(50%);
   transform-origin: 50% 0;
 }
 
 .services .service-box h3 {
   font-weight: 50;
-  transition: 0.3s;
+  transition: 0.8s;
 }
 
 
