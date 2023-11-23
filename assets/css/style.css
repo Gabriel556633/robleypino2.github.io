@@ -961,8 +961,8 @@ section {
 
 .services .service-box.blue:hover {
   background: #747270;
-  background: url(../img/HOJAS11.png) top center no-repeat;
-  background-size: cover;
+  background : url(../img/HOJAS12.png) top center no-repeat;
+  background-size: auto;
   visibility: visible;
   
 }
