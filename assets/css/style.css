@@ -930,8 +930,12 @@ section {
 }
 
 .services .service-box h3 {
-  color: #444444;
-  font-weight: 700;
+  color: rgba(160, 208, 160);
+  font-weight: 50;
+}
+.services .service-box h2 {
+  color: rgba(160, 208, 160);
+  font-weight: 50;
 }
 
 .services .service-box .read-more {
@@ -961,14 +965,13 @@ section {
 }
 
 .services .service-box.blue .read-more {
-
   color: #fff;
 }
 
 
 
 .services .service-box.blue:hover {
-  background: url(../img/HOJAS11.png) top center no-repeat;
+  
   background-size: cover;
   visibility: visible;
 }
