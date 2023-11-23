@@ -1632,46 +1632,36 @@ section {
 
 .team .member .member-info {
   padding: 10px 15px 20px 15px;
-  font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 700;
-    src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTXhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+  font-family: 'Open Sans Condensed';
+
   
 }
 
 .team .member .member-info h4 {
-  font-weight: 700;
+  font-weight: 00;
   margin-bottom: 5px;
-  font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 500;
-    src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTXhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+  font-family: 'Open Sans Condensed';
   color: #319e22;
 }
 
 .team .member .member-info span {
   display: block;
-  font-size: 14px;
-  font-weight: 400;
+  font-size: 22px;
+  font-weight: 900;
   color: #000000;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans Condensed';
   font-style: normal;
-  font-weight: 600;
-  src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTXhCUOGz7vYGh680lGh-uXM.woff) format('woff');
-
 }
 
 .team .member .member-info p {
-  font-style: italic;
-  font-size: 14px;
+  font-size: 20px;
   padding-top: 15px;
   line-height: 26px;
   color: #000000;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans Condensed';
   font-style: normal;
-  font-weight: 500;
-  src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTXhCUOGz7vYGh680lGh-uXM.woff) format('woff');
-
+  font-weight: 700;
+  
 }
 
 .team .member:hover {
