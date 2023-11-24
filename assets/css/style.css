@@ -960,8 +960,8 @@ section {
 
 
 .services .service-box.blue:hover {
-  width: 90%;
-  height: 500px;
+  width: 120%;
+  height: 700px;
   background-image: url('../img/HOJAS12.png') ;
 
   background-repeat: no-repeat;
