@@ -960,11 +960,13 @@ section {
 
 
 .services .service-box.blue:hover {
-  background: #747270;
-  background : url(../img/HOJAS12.png) top center no-repeat;
-  background-size: auto;
-  visibility: visible;
-  
+  width: 90%;
+  height: 500px;
+  background-image: url('../img/HOJAS12.png') ;
+
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;  
 }
 
 
@@ -1004,8 +1006,7 @@ section {
 }
 
 .services .service-box.green:hover {
-  background: #747270;
-  background: url(../img/ESPACIOS11.png) top center no-repeat;
+
   background-size: cover;
   visibility: visible;
 }
@@ -1025,8 +1026,7 @@ section {
 }
 
 .services .service-box.red:hover {
-  background: #747270;
-  background: url(../img/EXPERIENCIA11.png) top center no-repeat;
+
   background-size: cover;
   visibility: visible;
 }
@@ -1102,8 +1102,19 @@ section {
   width: 50%;
   /*border: steelblue solid 1px;*/
   height: 100%;
-  background: rgb(238, 217, 204);
+  background: rgb(216, 191, 175);
   
+}
+.left1 a{
+  
+  color:  rgb(216, 191, 175);
+  text-decoration: none;
+}
+
+
+.left1 a:hover {
+  color: #fff;
+  text-decoration: none;
 }
 
 .right1 {
@@ -1115,6 +1126,18 @@ section {
   height: 25%;
   background: rgba(146, 146, 142);
   transform: translateY(300%);
+}
+
+.right1 a{
+  
+  color: rgba(146, 146, 142);
+  text-decoration: none;
+}
+
+
+.right1 a:hover {
+  color: #fff;
+  text-decoration: none;
 }
 
 
