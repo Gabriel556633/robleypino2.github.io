@@ -76,15 +76,15 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 15px 0;
-  background: #d1b398;
+  background: #ffffff;
   min-height: 40px;
-  margin-top: 82px;
-  color: #fff;
+  margin-top: 10px;
+  color: #000000;
 }
 
 @media (max-width: 992px) {
   .breadcrumbs {
-    margin-top: 57px;
+    margin-top: 10px;
   }
 }
 
@@ -103,7 +103,7 @@ section {
 }
 
 .breadcrumbs ol a {
-  color: #fff;
+  color: #000;
   transition: 0.3s;
 }
 
@@ -966,7 +966,7 @@ section {
 
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: center;  
+  background-position: top;  
 }
 
 
@@ -1507,7 +1507,7 @@ section {
 }
 
 .portfolio-details .portfolio-description {
-  padding-top: 30px;
+  padding-top: 60px;
 }
 
 .portfolio-details .portfolio-description h2 {
